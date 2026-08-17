@@ -1,7 +1,5 @@
-div { 
-    align-items: center;
-}
- <div id="carouselExampleFade" class="carousel slide carousel-fade">
+
+ div {id="carouselExampleFade" class="carousel slide carousel-fade">
         <div class="carousel-inner">
             <div class="carousel-item active"> <!--? Home-->
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6nv_iRhY6m1-uNnbqqBT0AsNyBqCwcebq_GndJu8yCw&s=10"
@@ -37,4 +35,17 @@ div {
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
-    </div>
+    </div>}
+
+    body {
+    /* Color de fondo para toda la página */
+    background-color: #000000;
+    /* Fondo */
+    color: #ffffff;
+    /*Texto */
+}
+
+/*--subtitulo*/
+h3 {
+    color: #ffffff;
+}
