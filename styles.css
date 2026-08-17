@@ -1,0 +1,12 @@
+body {
+    /* Color de fondo para toda la página */
+    background-color: #000000;
+    /* Fondo */
+    color: #ffffff;
+    /*Texto */
+}
+
+/*--subtitulo*/
+h3 {
+    color: #ffffff;
+}
