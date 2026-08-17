@@ -1,0 +1,9 @@
+
+
+#carouselExampleFade {
+    display: flex; /** Centra la imagen dentro del contenedor */
+    justify-content: center; /** Centra horizontalmente */
+    align-items: center; /** Centra verticalmente */
+    width:700px;
+    margin:auto;
+}
