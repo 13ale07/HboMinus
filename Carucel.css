@@ -3,8 +3,8 @@ body{
     padding: 10px;
     background-color: grey;
 }
-
-#carouselExampleFade {
+ 
+#carouselExampleFade {   /*? Se modifica las propiedades del carusel para poder centrarlo y que no ocupe toda la pantalla */
     display: flex; /** Centra la imagen dentro del contenedor */
     justify-content: center; /** Centra horizontalmente */
     align-items: center; /** Centra verticalmente */
