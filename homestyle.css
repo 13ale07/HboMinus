@@ -1,3 +1,40 @@
 div { 
     align-items: center;
 }
+ <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+            <div class="carousel-item active"> <!--? Home-->
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6nv_iRhY6m1-uNnbqqBT0AsNyBqCwcebq_GndJu8yCw&s=10"
+                    class="d-block w-100" alt="Casa del dragon">
+            </div>
+            <div class="carousel-item"> <!--? Series -->
+                <img src="https://m.media-amazon.com/images/S/pv-target-images/db552f8b184fab12845e5d46c961932fda37c0a1be9e88ddc4988b30c1352fa3.jpg"
+                    class="d-block w-100" alt="Duna la profesia">
+            </div>
+            <div class="carousel-item"> <!--? Movies -->
+                <img src="https://nintenduo.com/wp-content/uploads/2025/08/Fecha-Estreno-FNAF-2-Pelicula-Paises.webp"
+                    class="d-block w-100" alt="FNAF 2">
+            </div>
+            <div class="carousel-item"> <!--? HBO-->
+                <img src="https://i.ytimg.com/vi/Pk1uoINLbr8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBZHyDCHqNMUIUZafDDo0N-7RycXA"
+                    class="d-block w-100" alt="Spiderman-NWH">
+            </div>
+            <div class="carousel-item"> <!--? Sport-->
+                <img src="https://m.media-amazon.com/images/S/pv-target-images/b9ce7b79d4c4320e6202b66625d03c06d23e0e0c06d3cb8c6a02efa8930db5a9.png"
+                    class="d-block w-100" alt=" Ferrari la pelicula">
+            </div>
+            <div class="carousel-item"> <!--? Kids y Family -->
+                <img src="https://m.media-amazon.com/images/S/pv-target-images/509b02ad2b0330a90aa09942d9762c6eae296c32c17f5506e122003f8951d61d.jpg"
+                    class="d-block w-100" alt="El show de Gounbal">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
