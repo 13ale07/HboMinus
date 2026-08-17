@@ -1,9 +1,13 @@
-
+body{
+    margin: 0px;
+    padding: 10px;
+    background-color: grey;
+}
 
 #carouselExampleFade {
     display: flex; /** Centra la imagen dentro del contenedor */
     justify-content: center; /** Centra horizontalmente */
     align-items: center; /** Centra verticalmente */
-    width:700px;
+    width:1000px;
     margin:auto;
 }
