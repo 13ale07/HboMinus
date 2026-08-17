@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HBO Minus - Alerts</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+        crossorigin="anonymous"
+    >
+    <!--? bg-black = fondo negro-->
+    <!--? text-white = texto blanco-->
+    <!--? min-vh-100 = altura mínima de toda la pantalla-->
+</head>
+<body class="bg-black text-white min-vh-100">
+     <!--? container = crea un contenedor responsivo-->
+     <!--? py-5 = para agregar un espacio arriba y abajo-->
+
+     <main class="container py-5">
+
+            <h1 class="mb-4">HBO Minus</h1>
+
+        <!--? ALERTA DE EXITO-->
+
+        <div 
+            class="alert alert-success alert-dismissible fade show"
+            role="alert">
+
+            <strong>¡Agregado a Mi Lista</strong>
+            Lanters se agregó correctamente.
+        
+            <!--? Botón X para cerrar la alerta-->
+            <button 
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="alert"
+                aria-label="Cerrar"
+            ></button>        
+        </div>
+
+        <!--? ALERTA INFORMATIVA -->
+        <div 
+            class="alert alert-info alert-dismissible fade show"
+            role="alert">
+        
+            <strong>Nuevo episodio disponible.</strong>
+            Ya puedes ver el nuevo episodio de Lanterns.
+
+            <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="alert"
+                aria-label="Cerrar"
+            ></button>   
+        </div>
+
+        <!--? ALERTA DE ADVERTENCIA -->
+        <div
+            class="alert alert-warning alert-dismissible fade show"
+            role="alert"
+        >
+        <strong>Disponible por tiempo limitado.</strong>
+        Este contenido saldrá próximamente del catálogo.
+
+        <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="alert"
+            aria-label="Cerrar"
+        ></button>    
+    </div>
+</main>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"
+    ></script>
+    
+</body>
+</html>
